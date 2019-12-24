@@ -1,0 +1,185 @@
+/* Responsive CSS Document 
+
+Project Name:  Health-Sheba Business, Finance and Professional Services HTML5 Template
+Version:  1.0   
+Author Name: Set PVT.
+Support Email : shakil.shakil.ahsan@gmail.com
+Design By: Mahamudul Hasan
+Creation Date: 10 September 2017 
+
+/* ================================================ */
+
+
+
+@media only screen and (max-width: 1199px) {
+
+    .blog-post-grid-style .blog-post-style-single .blog-post-style-img {
+        height: auto;
+    }
+
+}
+
+@media only screen and (min-width: 992px)  and (max-width: 1023px) {
+
+    nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after{
+        font-family: 'FontAwesome';
+        content: "\f0d7";
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+    nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a {
+        border-bottom: 1px solid #eee;
+        color: #6f6f6f;
+        padding: 15px;
+    }
+    nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .col-menu .content ul.menu-col li a{
+        display: block;
+        padding: 5px 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .mobile-responsive ul li:nth-child(2) {
+        margin-left: 0px;
+    }
+    .mobile-responsive ul li:nth-child(3) {
+        margin-top: 0px;
+    }
+    .over-layer-white-deep .funfact-item.style-3 .count h2.start-count.border-none {
+        border-right: 1px solid #2facde !important;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        overflow-x: hidden;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .row {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+    
+    #ajax-contact .form-row .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .center-sm-block {
+        
+    }
+
+}
+
+@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .index-img .section-title.light-title h5 {
+        display: none;
+    }
+    .index-img .section-title.light-title h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 626px) {
+    
+    .gallery.col-3 .gallery-item {
+        width: 50%;
+    }
+    .gallery-filter li a {
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 491px) {
+    
+    .accordion-panel.style-1 .panel-title {
+        font-size: 11px;
+    }
+    .accordion-panel.style-1 .panel-heading .accordion-toggle:after {
+        margin-left: 3px;
+    }
+    .services-slider.services-slider-top{
+        margin-top:70px;
+    }
+    .header-topbar-col ul.address{
+        text-align: center;
+    }
+    .header-topbar-col ul.address li:first-child:before{
+        display: none;
+    }
+    .header-topbar-col ul.socials-icon{
+        margin-bottom:10px;
+        float: unset !important;
+        padding-left: 65px;
+    }
+    .banner-rev .tp-caption.slide-text h4{
+        font-size:28px;
+    }
+    .banner-rev .tp-caption.slide-text h2{
+        max-width: 400px;
+        font-size: 32px;
+    }
+    .banner-rev .tp-caption.slide-text a{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    
+    .accordion-panel.style-1 .panel-title {
+        font-size: 11px;
+        line-height: 22px;
+    }
+    .accordion-panel.style-1 .panel-heading .accordion-toggle:after {
+        font-size: 12px;
+        height: 22px;
+        line-height: 22px;
+        margin-right: 5px;
+        width: 22px;
+    }
+    .about-item.style-1 {
+        padding: 12px;
+    }
+    .about-item.style-1 h3 {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
